@@ -1,6 +1,5 @@
 import { ICategoriesrepository } from "../../repositories/ICategoriesRepository"
 
-
 interface  IRequest {
   name: string
   description: string
@@ -22,6 +21,5 @@ class CreateCateroryUseCase  {
     })
   }
 }
-
 
 export { CreateCateroryUseCase }
